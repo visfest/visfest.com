@@ -8,25 +8,48 @@
     <script src="js/modernizr.js"></script>
   </head>
   <body>
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>viSFest</h1>
+    <div class="row" style="margin-top: 20px; margin-bottom: 20px">
+      <div class="large-4 columns">
+        <h1>d3.unconf</h1>
+      </div>
+      <div class="large-6 columns">
+        <div id="smallmultiples" class="right"></div>
       </div>
     </div>
     <div class="row">
       <div class="large-12 columns">
       	<div class="callout panel">
-	        <h3>viSFest is a San Francisco-based conference about visualization.</h3>
+	        <h3>a data visualization unconference</h3>
           <hr />
-	        <div class="row">
-	        	<div class="large-6 medium-6 columns">
-	    		<p><a href="">viSFest Unconference</a><br />March 2014</p>
+          <p>Tickets go on sale March 1</p>
 	    	</div>
-	        	<div class="large-6 medium-6 columns">
-	        		<p><a href="">viSFest Conference</a><br />Coming Late Summer 2014</p>
-	        	</div>
-					</div>
-      	</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-6 columns">
+        <h4>SCHEDULE</h4>
+      </div>
+      <div class="large-6 columns">
+        <h4>VISUAL SCHEDULE</h4>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <h4>LOCATION</h4>
+    
+        <p>GitHub HQ<br/>
+        88 Colin P Kelly Jr St<br/>
+        San Francisco, CA 94107</p>
+        <div id="map_div"></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 medium-12 columns">
+        <h4>What is an unconference?</h4>
+        <p> Blah Blah</p>
       </div>
     </div>
 
@@ -63,9 +86,96 @@
     
     <script src="js/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
-    <script>
+    <script src="js/d3.min.js"></script>
+    <script type="text/javascript">
       $(document).foundation();
     </script>
+
+    <script type="text/javascript">
+      // create small multiples
+      var sm_svg = d3.select("#smallmultiples").append("svg")
+        .attr("width", 430)
+        .attr("height", 100)
+
+
+      // create a map
+      var width = 970,
+      height = 400;
+
+
+      // weird arbitrary data
+      // same data, 4 different charts
+      var datums = [{magnitude:5,ratio:0.5}]
+
+      var multiples = [
+        {nodes:[{x:15,y:15,ir:2,or:30},{x:85,y:30,ir:3,or:10},{x:75,y:85,ir:2,or:10},{x:20,y:70,ir:3,or:10}]},
+        {nodes:[{x:25,y:25,ir:3,or:20},{x:75,y:35,ir:4,or:10},{x:70,y:65,ir:5,or:10},{x:30,y:65,ir:4,or:10}]},
+        {nodes:[{x:40,y:35,ir:5,or:15},{x:65,y:35,ir:6,or:10},{x:70,y:65,ir:6,or:10},{x:40,y:65,ir:5,or:10}]},
+        {nodes:[{x:40,y:40,ir:7,or:10},{x:60,y:40,ir:7,or:10},{x:60,y:60,ir:7,or:10},{x:40,y:60,ir:7,or:10}]}
+      ];
+
+      var multiples_g = sm_svg.selectAll(".multiples").data(multiples).enter().append("g")
+        .attr("transform", function(d,i) { return "translate(" + i * 110 + ",0)" });
+      multiples_g.append("rect").attr({"width":100,"height":100})
+        .style("fill", "#999");
+      var nodes_g = multiples_g.selectAll(".node").data(function(d) { return d.nodes }).enter()
+        .append("g");
+
+      nodes_g.append("circle")
+        .attr("cx",function(d) { return d.x })
+        .attr("cy",function(d) { return d.y })
+        .attr("r", function(d) { return d.or });
+      nodes_g.append("circle")
+        .attr("cx",function(d) { return d.x })
+        .attr("cy",function(d) { return d.y })
+        .attr("r", function(d) { return d.or - 2 })
+        .style("fill", "#999");
+      nodes_g.append("circle")
+        .attr("cx",function(d) { return d.x })
+        .attr("cy",function(d) { return d.y })
+        .attr("r", function(d) { return d.ir })
+      
+      var svg = d3.select("#map_div").append("svg")
+          .attr("width", width)
+          .attr("height", height)
+          .style("background-color", "#ddd");
+
+      var proj = d3.geo.transverseMercator().rotate([122,0]);
+      var path = d3.geo.path().projection(proj);
+
+      d3.json("map/8bit_sf_coastline.geojson", function(error, j) {
+        proj.scale(1).translate([0,0]);
+        var coast = j;
+        
+        var fudge_scale = 5.0;
+        var fudge_y = 400;
+        var fudge_x = 150;
+        var b = path.bounds(coast),
+            s = fudge_scale / Math.max((b[1][0] - b[0][0]) / width, (b[1][1] - b[0][1]) / height),
+            t = [(width - s * (b[1][0] + b[0][0])) / 2 + fudge_x, (height - s * (b[1][1] + b[0][1])) / 2 + fudge_y];
+
+        proj.scale(s)
+          .translate(t);
+      
+        svg.append("path")
+          .datum(coast)
+          .attr("d", path)
+          .style("fill","#333");
+
+        // 37.782254,-122.39124
+        var coords = [-122.39124,37.782254]
+        var thecircles = [10,20,30,40,50];
+        var theCircle = svg.selectAll(".ring").data(thecircles).enter().append("circle")
+          .attr("transform", function(d) { return "translate(" + proj(coords) + ")" })
+          .style("fill","none")
+          .attr("stroke-width", "8px")
+          .attr("stroke", "#555")
+          .attr("r", function(d) { return d });
+      });
+
+      d3.unconf = function() { alert("You win") };
+    </script>
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
