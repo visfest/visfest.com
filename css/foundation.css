@@ -1,4 +1,4 @@
-@import url("//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+@import url("//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700");
 meta.foundation-mq-small {
   font-family: "/only screen and (max-width: 40em)/";
   width: 0em; }
@@ -31,11 +31,11 @@ body {
   font-size: 100%; }
 
 body {
-  background: white;
-  color: #222222;
+  background: #373533;
+  color: #ffffff;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;

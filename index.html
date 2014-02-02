@@ -5,26 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>d3.unconf - March 29, 2014</title>
     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <script src="js/modernizr.js"></script>
   </head>
   <body>
     <style>
-    </style>
-    <div class="row" style="margin-top: 20px; margin-bottom: 20px">
-      <div class="large-4 columns">
-        <h1 style="line-height: 1.0">d3.unconf</h1>
-        <p>presented by the Bay Area d3 Meetup</p>
-      </div>
-      <div class="large-6 columns">
-        <div id="smallmultiples" class="right"></div>
-      </div>
+    </style>        
+
+    <div class="row" style="margin-top: 50px; margin-bottom: 20px">
+        <div class="large-6 columns">
+          <div id="smallmultiples"></div>
+        </div>
+        <div class="large-6 columns">
+            <h1 class="title">d3.unconf</h1>
+            <h4 class="intro-text">
+              d3.unconf is a one-day gathering of data visualization practitioners. We're meeting to catalyze involvement and knowledge sharing within the d3.js and greater visualization community.
+            </h4>
+        </div>
     </div>
 
     <div class="row centered-text" style="margin-top: 40px">
       <div class="large-12 medium-12 columns">
-        <h4>
-          d3.unconf is a one-day gathering of data visualization practitioners. We're meeting to catalyze involvement and knowledge sharing within the d3.js and greater visualization community.
-        </h4>
+        
       </div>
     </div>
 
@@ -32,7 +34,7 @@
       <div class="large-12 medium-12 columns panel">
         <div class="row collapse">
           <div class="small-5 columns">
-            <h4>Sign up for updates!</h4>
+            <h2>Sign up for updates!</h2>
             <h5 class="subheader">Tickets are going on sale March 1.</h5>
           </div>
           <form action="http://enja.us2.list-manage1.com/subscribe/post?u=04caa372ad17a1acb66bdef40&amp;id=ee69e72e36" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -47,95 +49,90 @@
       </div>
     </div>
 
-    <div class="row">
-      <div class="large-6 columns">
-        <h4>DATE: <b>March 29, 2014</b></h4> 
-        <h4>LOCATION: <img src="/img/GitHub-Mark-32px.png"> <b>GitHub HQ</b> <small>88 Colin P Kelly Jr St, San Francisco, CA 94107</small></h4>
-        <br><br><br>
-        <h4>
-          You make the <a href="/schedule.html">SCHEDULE!</a>
-        </h4>
-        <br><br>
-        <h4>Opening Keynote by Irene Ros</h4>
-        <p>
-        <a href="https://twitter.com/ireneros">Irene</a> is a core developer for <a target=_blank href="http://misoproject.com/">The Miso Project</a>, a framework for interactive storytelling with data. She organizes <a target=_blank href="http://openvisconf.com/">OpenVisConf</a> and works at <a target=_blank href="http://www.bocoup.com/">Bocoup</a>.
-        </p>
-      </div>
+    <div class="wrapper grey">    
+        <div class="row">
+            <div class="large-6 columns">
+                <h4>DATE: <b>March 29, 2014</b></h4> 
+                <h4>LOCATION: <img src="/img/GitHub-Mark-32px.png">GitHub HQ</h4>
+                    88 Colin P Kelly Jr St, 
+                    San Francisco, CA 94107
+                <br><br><br>
+                <h4>
+                  You make the <a href="/schedule.html">SCHEDULE!</a>
+                </h4>
+                <br><br>
+            </div>
+            <div class="large-6 columns">
+              <div id="map_div"></div>
+            </div>
+        </div>
+    </div>
+            
+    <div class="wrapper blue">    
+         <div class="row">
+             <div class="large-12 columns">            
+            <h2>Opening Keynote by Irene Ros</h2>
+            <p>
+            <a href="https://twitter.com/ireneros">Irene</a> is a core developer for <a target=_blank href="http://misoproject.com/">The Miso Project</a>, a framework for interactive storytelling with data. She organizes <a target=_blank href="http://openvisconf.com/">OpenVisConf</a> and works at <a target=_blank href="http://www.bocoup.com/">Bocoup</a>.
+            </p>
+          </div>
 
-      <div class="large-6 columns">
-        <div id="map_div"></div>
-      </div>
+
+        </div>
     </div>
 
-    <div class="row centered-text" style="margin-top: 40px">
-      
+    <div class="wrapper purple">
+        <div class="row">
+          <div class="large-12 medium-12 columns">
+            <h2>Unconference Style</h2>
+            <p>
+            The majority of d3.unconf's agenda will be determined by you, the attendees.
+            Have a session you'd like to propose?
+            We'll propose sessions and converge on the <a href="/schedule.html">final schedule</a> the morning of.
+            Be prepared to get involved and most importantly, be proactive. What do you want to <a target=_blank href="https://gist.github.com/syntagmatic/8589463 ">discuss</a> and <a target=_blank href="http://bost.ocks.org/mike/example/">work on</a>?
+            </p>
+          </div>
+        </div>
+    </div>
+    
+    <div class="wrapper grey">
+        <div class="row">
+          <div class="large-12 medium-12 columns">
+            <br><br>
+            <h2>Goals</h2>
+              <p>Some of the goals for this unconference:</p>
+              <ul>
+              <li>Lots of forking. forking of gists.
+              <li>Put a face to a email/twitter/github handle.</li>
+              <li>Have fun!</li>
+              </ul>
+          </div>
+        </div>
     </div>
 
-    <div class="row">
-      <div class="large-12 medium-12 columns">
-        <h4>UNCONFERENCE STYLE</h4>
-        <p>
-        The majority of d3.unconf's agenda will be determined by you, the attendees.
-        Have a session you'd like to propose?
-        We'll propose sessions and converge on the <a href="/schedule.html">final schedule</a> the morning of.
-        Be prepared to get involved and most importantly, be proactive. What do you want to <a target=_blank href="https://gist.github.com/syntagmatic/8589463 ">discuss</a> and <a target=_blank href="http://bost.ocks.org/mike/example/">work on</a>?
-        </p>
-      </div>
+    <div class="wrapper blue">
+        <div class="row">
+          <div class="large-12 medium-12 columns">
+            <h2>Who Should Attend?</h2>
+            <ul>
+              <li>You're interested in building on your own or other people's examples</li>
+              <li>You have ideas around d3 and data visualization that you're still trying to figure out.</li>
+            </ul>
+          </div>
+        </div>
     </div>
 
-    <div class="row">
-      <div class="large-12 medium-12 columns">
-        <br><br>
-        <h4>GOALS</h4>
-          <p>Some of the goals for this unconference:</p>
-          <ul>
-          <li>Lots of forking. forking of gists.
-          <li>Put a face to a email/twitter/github handle.</li>
-          <li>Have fun!</li>
-          </ul>
-      </div>
+    <div class="wrapper purple">
+        <div class="row">
+          <div class="large-12 medium-12 columns">
+            
+          </div>     
+        </div>
     </div>
-
-    <div class="row">
-      <div class="large-12 medium-12 columns">
-        <h4>WHO SHOULD ATTEND?</h4>
-        <ul>
-          <li>You're interested in building on your own or other people's examples</li>
-          <li>You have ideas around d3 and data visualization that you're still trying to figure out.</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="large-12 medium-12 columns">
-        <br><br>
-        <h5>Sign up for our mailing list:</h5>
-        <form action="http://enja.us2.list-manage1.com/subscribe/post?u=04caa372ad17a1acb66bdef40&amp;id=ee69e72e36" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-				  <div class="row">
-				    <div class="large-4 medium-4 columns">
-				      <label>Email Address</label>
-				      <input type="text" name="EMAIL" placeholder="Required"/>
-				    </div>
-				    <div class="large-4 medium-4 columns">
-				      <label>First Name</label>
-				      <input type="text" name="FNAME"/>
-				    </div>
-				    <div class="large-4 medium-4 columns">
-				      <label>Last Name</label>
-				      <input type="text" name="LNAME"/>
-				    </div>
-				  </div>
-				  <div class="row">
-				    <div class="large-6 medium-6 columns">
-				      <label>Email Format</label>
-				      <input type="radio" name="EMAILTYPE" value="html" checked><label for="pokemonRed">HTML</label>
-				      <input type="radio" name="EMAILTYPE" value="text"><label for="pokemonBlue">Plain Text</label>
-				    </div>
-				  </div>
-          <div style="position: absolute; left: -5000px;"><input type="text" name="b_04caa372ad17a1acb66bdef40_ee69e72e36" value=""></div>
-          <input type="submit" value="Subscribe!" name="subscribe" class="small button"/>
-				</form>
-      </div>     
+    <div id="header">
+        <div class="row" style="text-align: right;">
+            <p>presented by the Bay Area d3 Meetup</p>
+        </div>
     </div>
     
     <script src="js/jquery.js"></script>
