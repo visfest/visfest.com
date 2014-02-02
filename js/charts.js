@@ -69,44 +69,12 @@ var sm_svg = d3.select("#smallmultiples").append("svg")
       horiz_g.append("rect").attr("width",function(d) { return 50 * d.a }).attr("x", 0).attr("height", 3);
       horiz_g.append("rect").attr("width",function(d) { return 50 * d.b }).attr("x", function(d) { return 50 * d.a }).attr("height", 3).style("fill", "#eee");
 
-      var svg = d3.select("#map_div").append("svg")
-          .attr("width", width)
-          .attr("height", height)
-          .style("background-color", "white");
-
-      var proj = d3.geo.transverseMercator().rotate([122,0]);
-      var path = d3.geo.path().projection(proj);
-
-      d3.json("map/simple_sf_coastline.geojson", function(error, j) {
-        proj.scale(1).translate([0,0]);
-        var coast = j;
-        
-        var fudge_scale = 5.0;
-        var fudge_y = 240;
-        var fudge_x = 150;
-        var b = path.bounds(coast),
-            s = fudge_scale / Math.max((b[1][0] - b[0][0]) / width, (b[1][1] - b[0][1]) / height),
-            t = [(width - s * (b[1][0] + b[0][0])) / 2 + fudge_x, (height - s * (b[1][1] + b[0][1])) / 2 + fudge_y];
-
-        proj.scale(s)
-          .translate(t);
-      
-        svg.append("path")
-          .datum(coast)
-          .attr("d", path)
-          .style("fill","#eee")
-          .style("stroke-width", "1px")
-          .style("stroke","#aaa")
-
-        // 37.782254,-122.39124
-        var coords = [-122.39124,37.782254]
-        var thecircles = [10,20,30,40,50];
-        var theCircle = svg.selectAll(".ring").data(thecircles).enter().append("circle")
-          .attr("transform", function(d) { return "translate(" + proj(coords) + ")" })
-          .style("fill","none")
-          .attr("stroke-width", "2px")
-          .attr("stroke", MUNI_YELLOW)
-          .attr("r", function(d) { return d });
-      });
-
       d3.unconf = function() { alert("You win") };
+
+      var map = L.map('map_div').setView([37.782254,-122.39124], 13);
+          L.tileLayer('http://{s}.tile.cloudmade.com/aa0e217a6d1d4c6a847dbb5de74b0227/997/256/{z}/{x}/{y}.png', {
+          attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
+          maxZoom: 18
+      }).addTo(map);
+      L.marker([37.782254,-122.39124]).addTo(map)
+        .bindPopup('GitHub HQ')
