@@ -21,7 +21,7 @@ var sm_svg = d3.select("#smallmultiples").append("svg")
                     {a:0.3,b:0.9}
                    ]
 
-      var MUNI_LIGHT_BLUE = "#48a5cb";
+      var MUNI_LIGHT_BLUE = "#0079a1";
       var MUNI_DARK_BLUE = "#608cdb";
       var MUNI_RED = "#c95565";
       var MUNI_YELLOW = "#f0b63b";
