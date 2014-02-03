@@ -15,7 +15,7 @@
 }
 
 body {   
-    background-image: url('../img/background/IMG_0310.jpg');
+    background-image: url('../img/background/IMG_1383.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -94,7 +94,7 @@ a:hover, a:active {
 }
 
 .email {
-    background-color: rgba(204,166,206,0.15);
+    background-color: rgba(204,166,206,0.30);
     padding: 20px;
     margin-bottom: 50px;
 }
