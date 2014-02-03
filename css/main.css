@@ -110,8 +110,38 @@ a:hover, a:active {
     background-color: rgba(55,53,51,0.65);
 }
 
-#header div {
+#header div.left {
     padding-left: 20px;
-    width: 49%;
     display: inline-block;
 }
+#header div.right{
+    padding-right: 20px;
+    display: inline-block;
+}
+
+
+#smallmultiples svg{
+    width: 100%;
+    height: 100%;
+}
+
+form.signup input[type="submit"]{
+    margin-top: 16px;
+    margin-left: -30px;
+}
+
+/* mobile */
+@media only screen and (min-width: 0px) and (max-width: 1024px){
+    .title {
+        font-size: 4rem;
+    }
+    form.signup input[type="submit"]{
+        margin: 0;
+    }
+}
+
+/* desktop > 1024px */
+@media only screen and (min-width: 1025px){
+
+}
+

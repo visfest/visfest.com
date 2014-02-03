@@ -1,7 +1,7 @@
 // create small multiples
 var sm_svg = d3.select("#smallmultiples").append("svg")
-        .attr("width", 430)
-        .attr("height", 100)
+        .attr('preserveAspectRatio', 'xMinYMin')
+        .attr('viewBox', '0 0 430 100')
 
       // create a map
       var width = 470,
