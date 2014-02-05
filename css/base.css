@@ -88,10 +88,11 @@ nav {
 }
 .call-action-area .call-action-link, .btn {
   position:relative;
-  top:18px;
+  top:4px;
   cursor: pointer;
   display: inline-block;
   padding: 15px 30px;
+  margin-top: 12px;
   font-size:2em;
   line-height:1em;
   vertical-align: center;
