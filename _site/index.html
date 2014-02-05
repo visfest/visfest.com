@@ -1,0 +1,380 @@
+<!doctype html>
+<html>
+<head>
+
+  <title>d3.unconf</title>
+
+  <meta charset="utf-8">
+  <meta name="author" content="d3.unconf">
+  <meta name="description" content="Conference description">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <!-- FACEBOOK -->
+  <meta property="fb:app_id" content="372862979453673">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://visfest.com/d3unconf">
+  <meta property="og:title" content="d3.unconf">
+  <meta property="og:description" content="Conference description">
+  <meta property="og:image" content="http://braziljs.org/img/fb-share.jpg">
+  <!-- / FACEBOOK -->
+
+  <link rel="shortcut icon" href="http://braziljs.org/favicon.ico" type="image/x-icon" />
+
+  <!-- STYLES -->
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/base.css">
+  <link rel="stylesheet" type="text/css" href="css/theme.css">
+  <!-- / STYLES -->
+
+</head>
+<body>
+
+  <div class="global">
+
+    <!-- NAVIGATION -->
+<nav id="nav">
+  <ul class="wrapper">
+    
+      <li class="nav-item">
+        <a href="#about" class="nav-link">About</a>
+      </li>
+    
+    
+      <li class="nav-item">
+        <a href="#location" class="nav-link">Location</a>
+      </li>
+    
+    
+      <li class="nav-item">
+        <a href="#faq" class="nav-link">FAQ</a>
+      </li>
+    
+    
+      <li class="nav-item">
+        <a href="#speakers" class="nav-link">Speakers</a>
+      </li>
+    
+    
+      <li class="nav-item">
+        <a href="#schedule" class="nav-link">Schedule</a>
+      </li>
+    
+    
+    
+      <li class="nav-item">
+        <a href="#partners" class="nav-link">Organizers</a>
+      </li>
+    
+    
+    
+      <li class="nav-item">
+        <a href="#code-of-conduct" class="nav-link">Code of Conduct</a>
+      </li>
+    
+      <li class="nav-item twitter-link">
+        <img src="img/icon-twitter.png"></img><a href="http://twitter.com/d3unconf">@d3unconf</a>
+      </li>
+  </ul>
+</nav>
+
+<hr />
+
+    <!-- HEADER -->
+<header class="header" style="background-image: url(img/IMG_1383.jpg)">
+  <div class="wrapper">
+    <h1 class="logo-name"><a class="logo-link" href="#" title="d3.unconf">d3.unconf</a></h1>
+    <h2 class="tagline">March 29, 2014, GitHub HQ, San Francisco</h2>
+
+    <!--
+    <div class="call-action-area">
+      <span class="price">Only $100</span>
+      <a href="" class="call-action-link" title="Register now!">Register now!</a>
+    </div>
+    -->
+  </div>
+</header>
+<!--  / HEADER -->
+
+<hr />
+
+
+    <!-- CONTENT -->
+    <section class="content" id="content">
+      <div class="wrapper">
+        
+
+  <section class="mailing-list" id="mailing-list">
+    <form method="post" action="contato.php" id="form-contato" class="form-contato">
+      <div class="control-group control-group-name">
+        <label for="name">Get notified when tickets are on sale!</label>
+        <input type="text" name="name" id="name" placeholder="Your Email Address"/>
+      </div>
+      <input class="btn btn-send" type="submit" value="Sign Up" />
+    </form>
+  </section>
+
+
+
+
+
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <p><span class="highlight">d3.unconf</span> is a one-day gathering of data visualization practitioners. We're meeting to catalyze involvement and knowledge sharing within the <a href="http://d3js.org">d3.js</a> and greater visualization community.</p>
+
+  </section>
+  <!-- / ABOUT -->
+
+
+
+
+
+  <!-- LOCATION -->
+  <section class="location" id="location">
+    <h2 class="section-title">Location</h2>
+    <p><a href="http://goo.gl/maps/38mPk">GitHub HQ, 88 Colin P Kelly Jr St, San Francisco, CA 94107</a></p>
+    <div id="map-canvas" class="location-area"></div>
+
+  </section>
+  <!-- / LOCATION -->
+
+
+
+
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <h4>What is an unconference?</h4>
+    <p>We will have 5 tracks per session, which means we will have 30 "blocks" for discussions and workshops throughout the day. We are hoping that each block will be seeded by at least one example, either something you worked on or something you'd like to learn more about. You don't have to be an expert on the topic to lead a block. If you have a topic you are interested in, try to find a good example and help facilitate discussion!</p>
+    <p>If a session isn't keeping your attention, don't feel obligated to stay - move to another that needs your voice! Don't forget to have FUN - we want to hear about all kinds of projects, especially the ones you do for fun!</p>
+    <h4>What topics will we cover?</h4>
+    <p>The topics for discussion will be submitted and chosen by attendees on the day of the unconference. Topics for the sessions can be whatever you want, but we have prepared a list of common mailing-list discussions that can provide starting points.</p>
+    <h4>Who should attend?</h4>
+    <p>You are interested in building on your own or other people's examples
+You have ideas around d3 and data visualization that you're still trying to figure out.
+You want to meet more people that are trying to apply the latest d3 techniques to visualize data!</p>
+  <!-- / FAQ -->
+  </section>
+
+
+
+
+
+
+  <!-- SPEAKERS -->
+  <section class="speakers" id="speakers">
+
+    <h2 class="section-title">Speakers</h2>
+
+    <div class="speakers-list">
+    
+      
+    
+      
+        <div class="speakers-item">
+          <span class="speaker-photo"><img class="photo" src="img/keynote.jpg" alt="Irene Ros" /></span>
+
+          <h3 class="speech-title">
+            
+              <span class="speech-time">10:00 AM</span>
+            
+              <span> Opening Keynote</span>
+          </h3>
+
+          <h3 class="speakers-name">Irene Ros <a href="http://www.twitter.com/ireneros" title="Twitter @ireneros">@ireneros</a></h3>
+          <p class="speakers-bio"><a href="">Irene</a> is a core developer for <a href="">The Miso Project</a>, a framework for interactive storytelling with data. She organizes the Boston conference <a href="">OpenVisConf</a> and is a Senior Developer at <a href="">Bocoup.</a></p>
+        </div>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    </div>
+
+  </section>
+  <!-- / SPEAKERS -->
+
+
+
+
+
+  <!-- SCHEDULE -->
+  <section class="schedule" id="schedule">
+    <h2 class="section-title">Schedule</h2>
+    <div class="schedule-tbl">
+      <table>
+        <thead>
+          <tr>
+            <th class="schedule-time">Time</th>
+            <th class="schedule-slot">Slot</th>
+            <th class="schedule-description">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          
+            
+              <tr class="schedule-other">
+                <td class="schedule-time">9:00 AM</td>
+                <td class="schedule-slot">Registration / Breakfast</td>
+                <td class="schedule-description">-</td>
+              </tr>
+            
+          
+            
+              <tr>
+                <td class="schedule-time">10:00 AM</td>
+                <td class="schedule-slot"><span class="speaker-photo"><img class="photo" src="img/keynote.jpg" alt="Irene Ros" /></span> Opening Keynote <span class="speakers-company">Boucoup</span></td>
+                <td class="schedule-description"></td>
+              </tr>
+            
+          
+            
+              <tr class="schedule-other">
+                <td class="schedule-time">10:20 AM</td>
+                <td class="schedule-slot">Converge on Final Schedule</td>
+                <td class="schedule-description">-</td>
+              </tr>
+            
+          
+            
+              <tr class="schedule-other">
+                <td class="schedule-time">10:30 AM</td>
+                <td class="schedule-slot">Sessions 1 and 2</td>
+                <td class="schedule-description">-</td>
+              </tr>
+            
+          
+            
+              <tr class="schedule-other">
+                <td class="schedule-time">12:30 PM</td>
+                <td class="schedule-slot">Lunch</td>
+                <td class="schedule-description">-</td>
+              </tr>
+            
+          
+            
+              <tr class="schedule-other">
+                <td class="schedule-time">1:30 PM</td>
+                <td class="schedule-slot">Sessions 3 and 4</td>
+                <td class="schedule-description">-</td>
+              </tr>
+            
+          
+            
+              <tr class="schedule-other">
+                <td class="schedule-time">3:30 PM</td>
+                <td class="schedule-slot">Break</td>
+                <td class="schedule-description">-</td>
+              </tr>
+            
+          
+            
+              <tr class="schedule-other">
+                <td class="schedule-time">4:00 PM</td>
+                <td class="schedule-slot">Sessions 5 and 6</td>
+                <td class="schedule-description">-</td>
+              </tr>
+            
+          
+            
+              <tr class="schedule-other">
+                <td class="schedule-time">6:00 PM</td>
+                <td class="schedule-slot">Dinner</td>
+                <td class="schedule-description">-</td>
+              </tr>
+            
+          
+
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <!-- / SCHEDULE -->
+
+
+
+
+
+
+  <!-- PARTNERS -->
+  <section class="partners" id="partners">
+    <h2 class="section-title">Organizers</h2>
+    <ul class="partners-list">
+
+    
+      <li class="partner-item">
+        <a class="partner-logo partner-link" href="http://www.meetup.com/Bay-Area-d3-User-Group"><img src="img/d3bayarea.jpg" alt="Bay Area d3 Meetup" class="photo" /></a>
+      </li>
+    
+
+    </ul>
+  </section>
+  <!-- / PARTNERS -->
+
+
+
+
+
+
+
+  <section class="code-of-conduct" id="code-of-conduct">
+    <h2 class="section-title">Code of Conduct</h2>
+      <p>d3.unconf is dedicated to a harassment-free conference experience for everyone
+    <br/>Please read our <strong><a href="conduct.html">anti-harassment policy</a></strong>
+    <br/><small>This anti-harassment policy is based on the example policy from the <a href="http://geekfeminism.wikia.com/index.php?title=Conference_anti-harassment_policy">Geek Feminism wiki</a></small>
+  </section>
+
+
+
+
+      </div>
+    </section>
+    <!-- / CONTENT -->
+
+    <hr />
+
+    <!-- FOOTER -->
+    <footer class="footer"></footer>
+    <!-- / FOOTER -->
+
+  </div>
+
+  <script src="js/jquery.js"></script>
+
+  
+
+  <link href='//api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css' rel='stylesheet' />
+  <script src='//api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js'></script>
+  <script src="js/map.js"></script>
+  
+
+  <!-- GOOGLE ANALYTICS -->
+  <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-33656081-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+  </script>
+  <!-- /GOOGLE ANALYTICS -->
+
+</body>
+</html>
