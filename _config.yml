@@ -1,0 +1,81 @@
+# Jekyll
+server: true
+auto: true
+markdown: rdiscount
+pygments: true
+permalink: /:title.html
+
+# Conference info
+conf:
+  name: "d3.unconf"
+  description: "Conference description"
+  date: "March 29, 2014"
+  price: "$100"
+  address: "GitHub HQ, 88 Colin P Kelly Jr St, San Francisco, CA 94107"
+  venue: "GitHub HQ"
+  city: "San Francisco"
+
+# Site info
+site:
+  url: "http://visfest.com/d3unconf"
+  favicon: "http://braziljs.org/favicon.ico"
+  googleanalytics: "UA-33656081-1"
+  images:
+    cover: "img/IMG_1383.jpg"
+    facebook: "http://braziljs.org/img/fb-share.jpg"
+
+# Active sections on the website
+sections:
+  about: true
+  mailing_list: true
+  location: true
+  faq: true
+  speakers: true
+  schedule: true
+  sponsors: false 
+  partners: true
+  contact: false
+  code_of_conduct: true 
+
+# The entire schedule
+schedule:
+  -
+    name: "Registration / Breakfast"
+    time: "9:00 AM"
+  -
+    name: "Irene Ros"
+    photo: "img/keynote.jpg"
+    bio: '<a href="">Irene</a> is a core developer for <a href="">The Miso Project</a>, a framework for interactive storytelling with data. She organizes the Boston conference <a href="">OpenVisConf</a> and is a Senior Developer at <a href="">Bocoup.</a>'
+    company: "Boucoup"
+    twitter: "ireneros"
+    presentation:
+      title: "Opening Keynote"
+      time: "10:00 AM"
+  -
+    name: "Converge on Final Schedule"
+    time: "10:20 AM"
+  -
+    name: "Sessions 1 and 2"
+    time: "10:30 AM"
+  -
+    name: "Lunch"
+    time: "12:30 PM"
+  -
+    name: "Sessions 3 and 4"
+    time: "1:30 PM"
+  -
+    name: "Break"
+    time: "3:30 PM"
+  -
+    name: "Sessions 5 and 6"
+    time: "4:00 PM"
+  -
+    name: "Dinner"
+    time: "6:00 PM"
+
+# List of Partners
+partners:
+  -
+    name: "Bay Area d3 Meetup"
+    logo: "img/d3bayarea.jpg"
+    url: "http://www.meetup.com/Bay-Area-d3-User-Group"

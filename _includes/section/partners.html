@@ -1,0 +1,18 @@
+{% if site.sections.partners %}
+
+  <!-- PARTNERS -->
+  <section class="partners" id="partners">
+    <h2 class="section-title">Organizers</h2>
+    <ul class="partners-list">
+
+    {% for partner in site.partners %}
+      <li class="partner-item">
+        <a class="partner-logo partner-link" href="{{ partner.url }}"><img src="{{ partner.logo }}" alt="{{ partner.name }}" class="photo" /></a>
+      </li>
+    {% endfor %}
+
+    </ul>
+  </section>
+  <!-- / PARTNERS -->
+
+{% endif %}
