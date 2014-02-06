@@ -3,7 +3,7 @@
   <!-- SPEAKERS -->
   <section class="speakers" id="speakers">
 
-    <h2 class="section-title">Speakers</h2>
+    <h2 class="section-title">Opening Keynote</h2>
 
     <div class="speakers-list">
     {% for speaker in site.schedule %}
@@ -15,7 +15,6 @@
             {% if speaker.presentation.time %}
               <span class="speech-time">{{ speaker.presentation.time }}</span>
             {% endif %}
-              <span> {{ speaker.presentation.title }}</span>
           </h3>
 
           <h3 class="speakers-name">{{ speaker.name }} <a href="http://www.twitter.com/{{ speaker.twitter }}" title="Twitter @{{ speaker.twitter }}">@{{ speaker.twitter }}</a></h3>
