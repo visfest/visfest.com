@@ -52,12 +52,9 @@ schedule:
       title: "Opening Keynote"
       time: "10:00 AM"
   -
-    name: "Converge on Final Schedule"
-    time: "10:20 AM"
-  -
     name: "2x5 Sessions"
     time: "10:30 AM"
-    description: "Your ideas here"
+    description: "Converge on final schedule; first sessions"
   -
     name: "Lunch"
     time: "12:30 PM"
