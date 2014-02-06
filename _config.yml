@@ -55,20 +55,23 @@ schedule:
     name: "Converge on Final Schedule"
     time: "10:20 AM"
   -
-    name: "Sessions 1 and 2"
+    name: "2x5 Sessions"
     time: "10:30 AM"
+    description: "Your ideas here"
   -
     name: "Lunch"
     time: "12:30 PM"
   -
-    name: "Sessions 3 and 4"
+    name: "2x5 Sessions"
     time: "1:30 PM"
+    description: "Your ideas here"
   -
     name: "Break"
     time: "3:30 PM"
   -
-    name: "Sessions 5 and 6"
+    name: "2x5 Sessions"
     time: "4:00 PM"
+    description: "Your ideas here"
   -
     name: "Dinner"
     time: "6:00 PM"
