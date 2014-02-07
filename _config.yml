@@ -18,11 +18,11 @@ conf:
 # Site info
 site:
   url: "http://visfest.com/d3unconf"
-  favicon: "http://braziljs.org/favicon.ico"
-  googleanalytics: "UA-33656081-1"
+  favicon: "/img/favicon.ico"
+  googleanalytics: "UA-46805120-1"
   images:
     cover: "/img/IMG_1383.jpg"
-    facebook: "http://braziljs.org/img/fb-share.jpg"
+    facebook: "/img/facebook_og.png"
 
 # Active sections on the website
 sections:
