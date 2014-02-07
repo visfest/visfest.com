@@ -8,7 +8,7 @@ permalink: /:title.html
 # Conference info
 conf:
   name: "d3.unconf"
-  description: "Conference description"
+  description: "d3.unconf is a one-day gathering of data visualization practitioners."
   date: "March 29, 2014"
   price: "$100"
   address: "GitHub HQ, 88 Colin P Kelly Jr St, San Francisco, CA 94107"
