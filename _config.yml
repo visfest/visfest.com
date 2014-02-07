@@ -22,7 +22,7 @@ site:
   googleanalytics: "UA-46805120-1"
   images:
     cover: "/img/IMG_1383.jpg"
-    facebook: "/img/facebook_og.png"
+    facebook: "http://visfest.com/img/facebook_og.png"
 
 # Active sections on the website
 sections:
