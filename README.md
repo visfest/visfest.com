@@ -1,12 +1,16 @@
 ## HOWTO
 
-to run:
+To run:
 
-have ruby installed.
+Have ruby installed.
 
-`gem install bundler` if you don't have bundler
-`bundle` in this directory to get Jekyll
-then run `jekyll` and look at your site at http://localhost:4000
+If you don't have Bundler, install with `gem install bundler`.
+ 
+Then, `bundle` in this directory, and `gem install jekyll` to get Jekyll.
+
+Finally, run `jekyll serve` and look at your site at http://localhost:4000
+
+If you have problems running Jekyll, installing rvm might help.
 
 ## Inspiration
 
