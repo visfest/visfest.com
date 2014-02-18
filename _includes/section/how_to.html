@@ -1,0 +1,61 @@
+<section class="how-to" id="how-to">
+  <h2 class="section-title">How to Create a Block</h2>
+  <p>So you’re jazzed for d3.unconf() and have your code samples all lined up, but now you’re stuck &mdash; how do you get this code into bl.ocks anyways? The short answer is magic: Bl.ocks works on any gist. You make a gist, it looks for index.html and throws that into an iframe, then shows everything as the code below.</p>
+
+  <p>We’ve outlined two approaches below &mdash; a simpler flavor and a command-line spectacular from the creator of blocks himself. </p>
+
+  <p>To learn more about the philosophy behind blocks &amp; examples, check out <a href="http://bost.ocks.org/mike/example/" title="For Example">For Example</a>, a transcript of Mike Bostock’s talk at last year’s Eyeo conference and <a href="http://www.youtube.com/watch?v=5UEavy0NLqg" title="Talk on Youtube">Ian Johnson’s d3.bayarea() talk</a> and <a href="http://enjalot.github.io/talks/buildingblocks/" title="Words + Links">slides</a>.</p>
+
+<h3><span class="strike">Cool</span> Simple Ranch</h3>
+
+<ol>
+<li>Create a gist with a file called <code>index.html</code> and any other files you need. Or <a href="https://gist.github.com/milroc/8724697" title="Fork me">fork the unconf gist</a> we've set up. 
+The default iframe size is 960 x 600, so if your original example was for something bigger, you may need to update your width and height. Also note that there is 5-minute cache on bl.ocks, so changes may not propagate right away.</li>
+<li>Replace the <code>https://gist.github.com</code> segment of the url with <code>http://bl.ocks.org</code>. Note that Chrome these days defaults to <code>https://</code>, but that will break your bl.ock and make you sad.</li>
+<li>Observe your new awesome code sample. Click on the number in the title to get back to your gist. Click on your name to check out your sweet bl.ocks homepage. Notice you don’t have a thumbnail. </li>
+<li>To make a thumbnail, you’ll first need a 230 x 120 png (see below for some methods to get there). Then you can clone your gist repo to your machine and add the file as <code>thumbnail.png</code>. 
+Detailed instructions can be found on <a href="http://www.d3noob.org/2012/12/loading-thumbnail-into-gist-for.html" title="Thumbnails in detail">d3noob</a>.</li>
+<li>Get excited! Make more! See you soon!</li>
+</ol>
+
+<h3>Original Flavor</h3>
+
+<ol>
+<li>Create a folder, <code>~/Development/gists/d</code>, in which all of the will gists live. The name <code>d</code> is a little weird, but this way you can run a local web server to serve those gists locally, and the URL structure will match bl.ocks.org.</li>
+<li>Run a local server from this directory. You can <code>npm install -g http-server</code> for a nice local web server or use <code>python -m SimpleHTTPServer [port number]</code>.</li>
+<li>To create a new example, create a new folder in <code>d</code>, say <code>3d-pie</code>. Create an <code>index.html</code>, load up http://localhost:8008/d/3d-pie, and off I go: <br />
+<code>mkdir 3d-pie</code><br />
+<code>cd 3d-pie</code><br />
+<code>touch index.html </code><br />
+<code>subl .</code><br /></li>
+<li>Keep developing locally, till you are ready to go. Then you can vist <a href="gist.github.com">gist.github.com</a> in your browser and just drag the files from the finder into the browser window to populate the gist. </li>
+<li>Last, click the "Create Public Gist" button, and then it’s live on bl.ocks.org! You can see it there by replacing the <code>https://gist.github.com</code> segment of the url with <code>http://bl.ocks.org</code>. or <a href="http://bl.ocks.org/" title="Scroll down for extension">installing a browser extension</a> to create a button on your gist page.</li>
+<li>You can then reconnect the local copy of the gist with GitHub’s gist if you want to update it in the future, simply by using git to push. You do that by cloning the gist repository, replacing the earlier local folder: <br />
+<code>git clone git@gist.github.com:4060606.git</code><br />
+<code>rm -rf 3d-pie</code><br />
+<code>cd 4060606</code></li><br />
+<li>Add a thumbnail png using the method above or below:</li>
+  <ul>
+    <li>Go to the block, e.g., bl.ocks.org/4060606</li>
+    <li>Command-Shift-4, drag a 960x500 box inside the gray border of the SVG.</li>
+    <li>Double click the gist number (4060606) and copy.</li>
+    <li>Paste to rename the new screenshot (becomes 4060606.png).</li>
+    <li><code>gm convert -resize 230x120 ~/Desktop/4060606.png thumbnail.png</code></li>
+    <li><code>git add thumbnail.png &amp;&amp; git commit -m 'Add thumbnail.' &amp;&amp; git push</code></li>
+  </ul>
+</ol>
+
+<h3>Garnishes: Right-sizing your png</h3>
+
+<p>There are a few ways to right-size your png.</p>
+
+<ol>
+<li>Use Photoshop. But if you have it, you probably aren’t reading down here.</li>
+<li>If you have a Mac, you can use Apple’s built-in screenshotting tool (Cmd + shift + 4), which displays the size of the screenshot. As long at it is some multiple of 230 x 120, it can be resized in the command line with <code>gm convert -resize 230x120 ~/Desktop/[filepath].png thumbnail.png</code>.<br />
+One way to create the correct aspect ratio is to create your example within the 960 x 600 SVG and then add a border from the console to show where to crop: <br />
+<code>d3.select("svg").style("border", "solid 1px red");</code></li>
+<li>Crop in Preview.</li>
+</ol>
+
+
+</section>

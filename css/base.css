@@ -30,9 +30,15 @@ li {
   font-size: 1.6em;
   line-height:1.5em;
 }
-ul {
+ul, ol {
   margin: 1em 1em 3em 2em;
 }
+
+ol > ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .photo {
   max-width:100%;
   position:relative;
@@ -42,6 +48,15 @@ ul {
 .highlight {
   font-weight: 500;
   color: #e61c65;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+code {
+  background-color: hsla(347, 80%, 94%, .9); /* can change hue to 183 to play off twitter link color */
+  padding: 0 4px;
 }
   
 /* =============================================================================
