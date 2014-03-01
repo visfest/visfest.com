@@ -74,6 +74,7 @@ nav {
   text-transform: uppercase;
   font-size: 12px;
 }
+
 .nav-link {font-size: 12px;}
 
 .twitter-link {font-size: 12px; float:right; text-decoration: none; }
@@ -125,7 +126,6 @@ nav {
    ========================================================================== */
 .about {
   padding:30px;
-  margin: 0 -20px 0;
   text-align: center;
   font-size: 1.4em;
   font-weight: 200;
@@ -142,6 +142,15 @@ nav {
 
 .mailing-list input {
   height: 50px;
+}
+
+/* ========================= ON SALE NOW */
+section .on-sale-now {
+  padding: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 200;
+  background-color: white;
 }
 
 /* =============================================================================

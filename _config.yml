@@ -36,6 +36,7 @@ sections:
   partners: true
   contact: false
   code_of_conduct: true 
+  on_sale_now: true
 
 # The entire schedule
 schedule:
