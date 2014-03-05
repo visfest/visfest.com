@@ -46,7 +46,7 @@ schedule:
   -
     name: "Irene Ros"
     photo: "/img/keynote.jpg"
-    bio: '<a href="">Irene</a> is a core developer for <a href="">The Miso Project</a>, a framework for interactive storytelling with data. She organizes the Boston conference <a href="">OpenVisConf</a> and is a Senior Developer at <a href="">Bocoup.</a>'
+    bio: '<a href="http://ireneros.com/">Irene</a> is a core developer for <a href="http://misoproject.com/">The Miso Project</a>, a framework for interactive storytelling with data. She organizes the Boston conference <a href="http://openvisconf.com/">OpenVisConf</a> and is a Senior Developer at <a href="http://bocoup.com/">Bocoup.</a>'
     company: "Boucoup"
     twitter: "ireneros"
     presentation:
