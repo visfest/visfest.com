@@ -32,7 +32,7 @@ sections:
   faq: true
   speakers: true
   schedule: true
-  sponsors: false 
+  sponsors: true
   partners: true
   contact: false
   code_of_conduct: true 
@@ -80,3 +80,7 @@ partners:
     name: "Bay Area d3 Meetup"
     logo: "/img/d3bayarea.png"
     url: "http://www.meetup.com/Bay-Area-d3-User-Group"
+
+sponsors:
+  -
+    name: "GitHub"
