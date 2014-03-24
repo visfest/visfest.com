@@ -41,8 +41,13 @@ sections:
 # The entire schedule
 schedule:
   -
-    name: "Registration / Breakfast"
+    name: "Breakfast"
     time: "9:00 AM"
+    global: true
+  -
+    name: "Session Planning"
+    time: "9:30 AM"
+    global: true
   -
     name: "Irene Ros"
     photo: "/img/keynote.jpg"
@@ -52,27 +57,71 @@ schedule:
     presentation:
       title: "Opening Keynote"
       time: "10:00 AM"
-  -
-    name: "2x5 Sessions"
+    global: true
+  - 
     time: "10:30 AM"
-    description: "Converge on final schedule; first sessions"
+    sessions:
+    - "Session 1A"
+    - "Session 1B"
+    - "Session 1C"
+    - "Session 1D"
+    - "Session 1E"
+  - 
+    time: "11:30 AM"
+    sessions:
+    - "Session 2A"
+    - "Session 2B"
+    - "Session 2C"
+    - "Session 2D"
+    - "Session 2E"
   -
     name: "Lunch"
     time: "12:30 PM"
-  -
-    name: "2x5 Sessions"
+    global: true
+  - 
     time: "1:30 PM"
-    description: "Your ideas here"
+    sessions:
+    - "Session 3A"
+    - "Session 3B"
+    - "Session 3C"
+    - "Session 3D"
+    - "Session 3E"
+  - 
+    time: "2:30 PM"
+    sessions:
+    - "Session 4A"
+    - "Session 4B"
+    - "Session 4C"
+    - "Session 4D"
+    - "Session 4E"
   -
-    name: "Break"
+    name: "Coffee Break"
     time: "3:30 PM"
-  -
-    name: "2x5 Sessions"
+    global: true
+  - 
     time: "4:00 PM"
-    description: "Your ideas here"
+    sessions:
+    - "Session 4A"
+    - "Session 4B"
+    - "Session 4C"
+    - "Session 4D"
+    - "Session 4E"
+  - 
+    time: "5:00 PM"
+    sessions:
+    - "Session 4A"
+    - "Session 4B"
+    - "Session 4C"
+    - "Session 4D"
+    - "Session 4E"
   -
     name: "Dinner"
     time: "6:00 PM"
+    global: true
+  -
+    name: "Github Pub!"
+    time: "7:00 PM"
+    global: true
 
 # List of Partners
 partners:
