@@ -1,3 +1,4 @@
+<h2 class="section-title" style="margin-top:48px;">Submitted Bl.ocks</h2>
 <div id="block_list">
 </div>
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
@@ -5,11 +6,18 @@
   console.log("Foo");
   d3.csv("/blocks.csv", function(error, d) {
     var list_elem = d3.select("#block_list");
-    var list_item = list_elem.selectAll(".submitted_block").data(d).enter().append("div").attr("class","submitted_block").style("display","inline");
-    list_item.append("p").text(function(d) { return d.GitHub });
+    var list_item = list_elem.selectAll(".submitted_block")
+      .data(d3.shuffle(d)).enter()
+      .append("div")
+      .attr("class","submitted_block")
+      .style("width","180px")
+      .style("padding","10px")
+      .style("display","inline-block");
     var link = list_item.append("a").attr("href", function(d) { return d["Blocks-link"] }).attr("target","_blank");
-    link.append("img").attr("src", function(d) { return d.Thumbnail }).style("max-width","300px");
+    link.append("p").text(function(d) { return d.GitHub }).style("margin", "0 0 6px 0");
+    link.append("img")
+      .attr("src", function(d) { return d.Thumbnail })
+      .style("max-width","180px")
+      .style("max-height","120px");
   });
-
-
 </script>
