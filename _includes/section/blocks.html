@@ -1,0 +1,15 @@
+<div id="block_list">
+</div>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script>
+  console.log("Foo");
+  d3.csv("/blocks.csv", function(error, d) {
+    var list_elem = d3.select("#block_list");
+    var list_item = list_elem.selectAll(".submitted_block").data(d).enter().append("div").attr("class","submitted_block").style("display","inline");
+    list_item.append("p").text(function(d) { return d.GitHub });
+    var link = list_item.append("a").attr("href", function(d) { return d["Blocks-link"] }).attr("target","_blank");
+    link.append("img").attr("src", function(d) { return d.Thumbnail }).style("max-width","300px");
+  });
+
+
+</script>
