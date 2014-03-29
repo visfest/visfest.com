@@ -68,10 +68,10 @@ schedule:
     time: "10:30 AM"
     sessions:
     - "<img src='/img/pink.png' style='margin-right:10px'></img>Space 1: RCharts with Ramnath"
-    - "<img src='/img/blue.png' style='margin-right:10px'></img> Space 2: multivariate data"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space 2: multivariate data"
     - "<img src='/img/green.png' style='margin-right:10px'></img>Space 3: d3 interop w/ Angular, etc"
     - "<img src='/img/orange.png' style='margin-right:10px'></img>Space 4: New to d3"
-    - "<img src='/img/purple.png' style='margin-right:10px'></img>Space 5: "
+    - "<img src='/img/purple.png' style='margin-right:10px'></img>Space 5: Intentionally left blank"
   - 
     time: "11:30 AM"
     sessions:
