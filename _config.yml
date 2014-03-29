@@ -107,11 +107,11 @@ schedule:
   - 
     time: "4:00 PM"
     sessions:
-    - "<img src='/img/pink.png' style='margin-right:10px'></img> Space 1"
-    - "<img src='/img/blue.png' style='margin-right:10px'></img> Space 2"
-    - "<img src='/img/green.png' style='margin-right:10px'></img> Space 3"
-    - "<img src='/img/orange.png' style='margin-right:10px'></img> Space 4"
-    - "<img src='/img/purple.png' style='margin-right:10px'></img> Space 5"
+    - "<img src='/img/pink.png' style='margin-right:10px'></img> Space 1: Biology + d3, by @ariutta"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img> Space 2: RAW: Using Reusable Charts + Viz for Non-programmers"
+    - "<img src='/img/green.png' style='margin-right:10px'></img> Space 3: Storytelling, Design and Good Taste, by @srhnhm and @nils"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img> Space 4: SVG Testing"
+    - "<img src='/img/purple.png' style='margin-right:10px'></img> Space 5: Data vis for the Humanities: Words, Feelings, Art, Images, Narrative, Music"
   - 
     time: "5:00 PM"
     sessions:
