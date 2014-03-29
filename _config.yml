@@ -101,7 +101,7 @@ schedule:
     - "<img src='/img/orange.png' style='margin-right:10px'></img> Space 4: Teaching d3: Examples, Challenges, Resources by @ireneros"
     - "<img src='/img/purple.png' style='margin-right:10px'></img> Space 5: Users Help Users: d3 Community"
   -
-    name: "Coffee Break"
+    name: "Beverage Break"
     time: "3:30 PM"
     global: true
   - 
