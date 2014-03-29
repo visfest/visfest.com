@@ -88,8 +88,8 @@ schedule:
     time: "1:30 PM"
     sessions:
     - "<img src='/img/pink.png' style='margin-right:10px'></img> Space 1: d3+webGL"
-    - "<img src='/img/blue.png' style='margin-right:10px'></img> Space 2: Data scraping + storing"
-    - "<img src='/img/green.png' style='margin-right:10px'></img> Space 3: Mobile"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img> Space 2: Data scraping + storing, by @pbbackum"
+    - "<img src='/img/green.png' style='margin-right:10px'></img> Space 3: Mobile, by @shirleyxwu"
     - "<img src='/img/orange.png' style='margin-right:10px'></img> Space 4: Process: How to get from Data to Vis, by @alignedleft"
     - "<img src='/img/purple.png' style='margin-right:10px'></img> Space 5: Visual effects/SVG Filters"
   - 
