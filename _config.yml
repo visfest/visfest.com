@@ -115,11 +115,11 @@ schedule:
   - 
     time: "5:00 PM"
     sessions:
-    - "<img src='/img/pink.png' style='margin-right:10px'></img> Space 1"
-    - "<img src='/img/blue.png' style='margin-right:10px'></img> Space 2"
-    - "<img src='/img/green.png' style='margin-right:10px'></img> Space 3"
-    - "<img src='/img/orange.png' style='margin-right:10px'></img> Space 4"
-    - "<img src='/img/purple.png' style='margin-right:10px'></img> Space 5"
+    - "<img src='/img/pink.png' style='margin-right:10px'></img> Space 1: d3 Hacks + Nuggets: Things I wish I knew earlier"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img> Space 2: d3 workflows + tools"
+    - "<img src='/img/green.png' style='margin-right:10px'></img> Space 3: Exploratory vis with Unknown Data"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img> Space 4.1: Reading Lists + Books. Space 4.2: Sports Analytics"
+    - "<img src='/img/purple.png' style='margin-right:10px'></img> Space 5: d3 + realtime and streaming data"
   -
     name: "Dinner"
     time: "6:00 PM"
