@@ -75,11 +75,11 @@ schedule:
   - 
     time: "11:45 AM"
     sessions:
-    - "<img src='/img/pink.png' style='margin-right:10px'></img>"
-    - "<img src='/img/blue.png' style='margin-right:10px'></img>"
-    - "<img src='/img/green.png' style='margin-right:10px'></img>"
-    - "<img src='/img/orange.png' style='margin-right:10px'></img> Space 4: "
-    - "<img src='/img/purple.png' style='margin-right:10px'></img> Space 5: mapping with tiles"
+    - "<img src='/img/pink.png' style='margin-right:10px'></img> Space 1: Performance d3+canvas"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img> Space 2: Sankey/Alluvial chart, Circuit diagrams"
+    - "<img src='/img/green.png' style='margin-right:10px'></img> Space 3: Reusable d3  + MV*"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img> Space 4: Network visualizations; d3 + sigma + Cytoscape etc."
+    - "<img src='/img/purple.png' style='margin-right:10px'></img> Space 5: mapping with tiles - gMaps, Leaflet, etc."
   -
     name: "Lunch"
     time: "12:30 PM"
