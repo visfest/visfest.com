@@ -67,7 +67,7 @@ schedule:
   - 
     time: "10:30 AM"
     sessions:
-    - "<img src='/img/pink.png' style='margin-right:10px'></img>RCharts with Ramnath"
+    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space 1: RCharts with Ramnath"
     - "<img src='/img/blue.png' style='margin-right:10px'></img>"
     - "<img src='/img/green.png' style='margin-right:10px'></img>"
     - "<img src='/img/orange.png' style='margin-right:10px'></img>"
