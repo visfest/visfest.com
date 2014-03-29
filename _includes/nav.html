@@ -1,9 +1,9 @@
 <!-- NAVIGATION -->
 <nav id="nav">
   <ul class="wrapper">
-    {% if site.sections.on_sale_now %}
+    {% if site.sections.schedule %}
       <li class="nav-item">
-        <a href="https://ti.to/visfest/d3unconf?release_id=toeiiilqh4u" class="nav-link" style="color:#e61c65">Buy Tickets</a>
+        <a href="/d3unconf/#schedule" class="nav-link">Schedule</a>
       </li>
     {% endif %}
     {% if site.sections.about %}
@@ -19,11 +19,6 @@
     {% if site.sections.faq %}
       <li class="nav-item">
         <a href="/d3unconf/#faq" class="nav-link">FAQ</a>
-      </li>
-    {% endif %}
-    {% if site.sections.schedule %}
-      <li class="nav-item">
-        <a href="/d3unconf/#schedule" class="nav-link">Schedule</a>
       </li>
     {% endif %}
     {% if site.sections.sponsors %}

@@ -38,6 +38,12 @@ sections:
   code_of_conduct: true 
   on_sale_now: true
 
+# orange: f98500
+# green: 00b43f
+# pink: ed007d
+# purple: 2a217d  
+# blue: 00a6e1
+
 # The entire schedule
 schedule:
   -
@@ -61,19 +67,19 @@ schedule:
   - 
     time: "10:30 AM"
     sessions:
-    - "Session 1A"
-    - "Session 1B"
-    - "Session 1C"
-    - "Session 1D"
-    - "Session 1E"
+    - "<img src='/img/pink.png' style='margin-right:10px'></img>"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img>"
+    - "<img src='/img/green.png' style='margin-right:10px'></img>"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img>"
+    - "<img src='/img/purple.png' style='margin-right:10px'></img>"
   - 
     time: "11:30 AM"
     sessions:
-    - "Session 2A"
-    - "Session 2B"
-    - "Session 2C"
-    - "Session 2D"
-    - "Session 2E"
+    - "<img src='/img/pink.png' style='margin-right:10px'></img>"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img>"
+    - "<img src='/img/green.png' style='margin-right:10px'></img>"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img>"
+    - "<img src='/img/purple.png' style='margin-right:10px'></img>"
   -
     name: "Lunch"
     time: "12:30 PM"
@@ -81,19 +87,19 @@ schedule:
   - 
     time: "1:30 PM"
     sessions:
-    - "Session 3A"
-    - "Session 3B"
-    - "Session 3C"
-    - "Session 3D"
-    - "Session 3E"
+    - "<img src='/img/pink.png' style='margin-right:10px'></img>"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img>"
+    - "<img src='/img/green.png' style='margin-right:10px'></img>"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img>"
+    - "<img src='/img/purple.png' style='margin-right:10px'></img>"
   - 
     time: "2:30 PM"
     sessions:
-    - "Session 4A"
-    - "Session 4B"
-    - "Session 4C"
-    - "Session 4D"
-    - "Session 4E"
+    - "<img src='/img/pink.png' style='margin-right:10px'></img>"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img>"
+    - "<img src='/img/green.png' style='margin-right:10px'></img>"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img>"
+    - "<img src='/img/purple.png' style='margin-right:10px'></img>"
   -
     name: "Coffee Break"
     time: "3:30 PM"
@@ -101,19 +107,19 @@ schedule:
   - 
     time: "4:00 PM"
     sessions:
-    - "Session 4A"
-    - "Session 4B"
-    - "Session 4C"
-    - "Session 4D"
-    - "Session 4E"
+    - "<img src='/img/pink.png' style='margin-right:10px'></img>"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img>"
+    - "<img src='/img/green.png' style='margin-right:10px'></img>"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img>"
+    - "<img src='/img/purple.png' style='margin-right:10px'></img>"
   - 
     time: "5:00 PM"
     sessions:
-    - "Session 4A"
-    - "Session 4B"
-    - "Session 4C"
-    - "Session 4D"
-    - "Session 4E"
+    - "<img src='/img/pink.png' style='margin-right:10px'></img>"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img>"
+    - "<img src='/img/green.png' style='margin-right:10px'></img>"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img>"
+    - "<img src='/img/purple.png' style='margin-right:10px'></img>"
   -
     name: "Dinner"
     time: "6:00 PM"
