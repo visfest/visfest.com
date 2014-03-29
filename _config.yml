@@ -95,11 +95,11 @@ schedule:
   - 
     time: "2:30 PM"
     sessions:
-    - "<img src='/img/pink.png' style='margin-right:10px'></img>"
-    - "<img src='/img/blue.png' style='margin-right:10px'></img>"
-    - "<img src='/img/green.png' style='margin-right:10px'></img>"
-    - "<img src='/img/orange.png' style='margin-right:10px'></img>"
-    - "<img src='/img/purple.png' style='margin-right:10px'></img>"
+    - "<img src='/img/pink.png' style='margin-right:10px'></img> Visualizng Outliers+Extremes"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img> Linked Views: Multple Charts, One Datset"
+    - "<img src='/img/green.png' style='margin-right:10px'></img> Visualizing Neural Networks"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img> Teaching d3: Examples, Challenges, Resources by @ireneros"
+    - "<img src='/img/purple.png' style='margin-right:10px'></img> Users Help Users: d3 Community"
   -
     name: "Coffee Break"
     time: "3:30 PM"
