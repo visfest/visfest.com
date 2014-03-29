@@ -107,19 +107,19 @@ schedule:
   - 
     time: "4:00 PM"
     sessions:
-    - "<img src='/img/pink.png' style='margin-right:10px'></img>"
-    - "<img src='/img/blue.png' style='margin-right:10px'></img>"
-    - "<img src='/img/green.png' style='margin-right:10px'></img>"
-    - "<img src='/img/orange.png' style='margin-right:10px'></img>"
-    - "<img src='/img/purple.png' style='margin-right:10px'></img>"
+    - "<img src='/img/pink.png' style='margin-right:10px'></img> Space 1"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img> Space 2"
+    - "<img src='/img/green.png' style='margin-right:10px'></img> Space 3"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img> Space 4"
+    - "<img src='/img/purple.png' style='margin-right:10px'></img> Space 5"
   - 
     time: "5:00 PM"
     sessions:
-    - "<img src='/img/pink.png' style='margin-right:10px'></img>"
-    - "<img src='/img/blue.png' style='margin-right:10px'></img>"
-    - "<img src='/img/green.png' style='margin-right:10px'></img>"
-    - "<img src='/img/orange.png' style='margin-right:10px'></img>"
-    - "<img src='/img/purple.png' style='margin-right:10px'></img>"
+    - "<img src='/img/pink.png' style='margin-right:10px'></img> Space 1"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img> Space 2"
+    - "<img src='/img/green.png' style='margin-right:10px'></img> Space 3"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img> Space 4"
+    - "<img src='/img/purple.png' style='margin-right:10px'></img> Space 5"
   -
     name: "Dinner"
     time: "6:00 PM"
