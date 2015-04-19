@@ -122,14 +122,28 @@ nav {
 .call-action-area .call-action-link:hover, .call-action-area .call-action-link:focus, .btn:hover, .btn:focus {top:0;}
 
 /* =============================================================================
+   HOME
+   ========================================================================== */
+p.workshops {
+  font-size: 2em;
+  text-align: left;
+}
+
+
+/* =============================================================================
    ABOUT
    ========================================================================== */
 .about {
   padding:30px;
-  text-align: center;
+/*  text-align: center;*/
   font-size: 1.4em;
   font-weight: 200;
   
+}
+.about .who {
+  font-size: 1em;
+  width: 70%;
+
 }
 
 /* =============================================================================
