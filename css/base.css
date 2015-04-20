@@ -3,7 +3,8 @@
    ========================================================================== */
 .wrapper {
   margin: 0 auto;
-  width:800px;
+  min-width: 800px;
+  width: 800px;
   position:relative;
 }
 .content {padding: 20px 0;}
@@ -37,6 +38,10 @@ ul, ol {
 ol > ul {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.big {
+  font-size: 3em;
 }
 
 .photo {
@@ -91,6 +96,7 @@ nav {
   margin-bottom: 0;
   font-size: 10em;
   letter-spacing: -.04em;
+  font-size: 4em;
 }
 .tagline {
   margin-bottom:50px;
@@ -334,6 +340,23 @@ section .on-sale-now {
 }
 
 @media only screen and (min-width:320px) and (max-width : 800px) {
+  .wrapper {
+    width: 100%;
+    min-width: 320px;
+    max-width: 800px;
+    padding: 0;
+    margin: 0;
+  }
+  .big {
+    font-size: 1em;
+  }
+  p.workshops {
+    font-size: 1em;
+  }
+  .youtube-playlist iframe {
+    width: 320px;
+    height: 180px;
+  }
 
   /* schedule */
   .schedule-tbl {padding:1px;}
@@ -380,6 +403,8 @@ section .on-sale-now {
 }
 
 @media only screen and (max-width : 480px) {
+
+  
   /* nav */
   nav {display: none;}
   .header {padding:20px 0;}
@@ -426,6 +451,27 @@ section .on-sale-now {
 } 
 
 @media only screen and (max-width : 321px) {
+  .wrapper {
+    width: 100%;
+    min-width: 320px;
+    max-width: 320px;
+    padding: 0;
+    margin: 0;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  .big {
+    font-size: 1em;
+  }
+  p.workshops {
+    font-size: 1em;
+  }
+  .youtube-playlist iframe {
+    width: 320px;
+    height: 180px;
+  }
+
   .logo-name {
     font-size: 4em;
     margin-bottom:.4em;
