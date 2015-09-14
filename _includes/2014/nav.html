@@ -1,0 +1,43 @@
+<!-- NAVIGATION -->
+<nav id="nav">
+  <ul class="wrapper">
+    <li class="nav-item">
+      <a href="/">viSFest</a>
+    </li>
+    {% if site.sections.schedule %}
+      <li class="nav-item">
+        <a href="/d3unconf2014/#schedule" class="nav-link">Schedule</a>
+      </li>
+    {% endif %}
+    {% if site.sections.about %}
+      <li class="nav-item">
+        <a href="/d3unconf2014/#about" class="nav-link">About</a>
+      </li>
+    {% endif %}
+    {% if site.sections.location %}
+      <li class="nav-item">
+        <a href="/d3unconf2014/#location" class="nav-link">Location</a>
+      </li>
+    {% endif %}
+    {% if site.sections.faq %}
+      <li class="nav-item">
+        <a href="/d3unconf2014/#faq" class="nav-link">FAQ</a>
+      </li>
+    {% endif %}
+    {% if site.sections.sponsors %}
+      <li class="nav-item">
+        <a href="/d3unconf2014/#sponsors" class="nav-link">Sponsors</a>
+      </li>
+    {% endif %}
+    {% if site.sections.contact %}
+      <li class="nav-item">
+        <a href="/d3unconf2014/#contact" class="nav-link">Contact</a>
+      </li>
+    {% endif %}
+    <li class="nav-item twitter-link">
+      <img src="/img/icon-twitter.png"></img><a href="http://twitter.com/d3unconf">@d3unconf</a>
+    </li>
+  </ul>
+</nav>
+
+<hr />

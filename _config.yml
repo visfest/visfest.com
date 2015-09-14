@@ -6,13 +6,39 @@ pygments: true
 permalink: /:title.html
 
 # Conference info
-conf:
+conf2014:
   name: "d3.unconf"
   description: "d3.unconf is a one-day gathering of data visualization practitioners."
   date: "March 29, 2014"
   price: "$100"
   address: "GitHub HQ, 88 Colin P Kelly Jr St, San Francisco, CA 94107"
   venue: "GitHub HQ"
+  city: "San Francisco"
+conf2015:
+  name: "d3.unconf"
+  description: "d3.unconf is a one-day gathering of data visualization practitioners."
+  date: "November 21, 2015"
+  price: "$100"
+  address: "2665 Mission St, San Francisco, CA 94110"
+  venue: "GAFFTA"
+  city: "San Francisco"
+
+
+conffourteen:
+  name: "d3.unconf"
+  description: "d3.unconf is a one-day gathering of data visualization practitioners."
+  date: "March 29, 2014"
+  price: "$100"
+  address: "GitHub HQ, 88 Colin P Kelly Jr St, San Francisco, CA 94107"
+  venue: "GitHub HQ"
+  city: "San Francisco"
+conffifteen:
+  name: "d3.unconf"
+  description: "d3.unconf is a one-day gathering of data visualization practitioners."
+  date: "November 21, 2015"
+  price: "$100"
+  address: "2665 Mission St, San Francisco, CA 94110"
+  venue: "GAFFTA"
   city: "San Francisco"
 
 # Site info
