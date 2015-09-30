@@ -70,8 +70,29 @@ sections:
 # purple: 2a217d  
 # blue: 00a6e1
 
+schedule2015:
+  -
+    name: "Breakfast"
+    time: "9:00 AM"
+    global: true
+  -
+    name: "Session Planning"
+    time: "9:30 AM"
+    global: true
+  -
+    name: "Tamara Munzner"
+    photo: "/img/tamara.jpg"
+    bio: 'Tamara Munzner is a professor at the University of British Columbia where she researches the development, evaluation, and characterization of information visualization systems and techniques from both user-driven and technique-driven perspectives.<br>We are excited to have Tamara kick off the day with a talk about Visualization Analysis & Design. She will no doubt set us on the right course for pushing the d3.js community forward!'
+    company: "University of British Columbia"
+    twitter: "tamaramunzner"
+    presentation:
+      title: "Opening Keynote"
+      time: "10:00 AM"
+    global: true
+
+
 # The entire schedule
-schedule:
+schedule2014:
   -
     name: "Breakfast"
     time: "9:00 AM"

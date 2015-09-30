@@ -1,0 +1,39 @@
+{% if site.sections.speakers %}
+
+  <!-- SPEAKERS -->
+  <section class="speakers" id="speakers">
+
+    <h2 class="section-title">Opening Keynote</h2>
+
+    <div class="speakers-list">
+    {% for speaker in site.schedule2015 %}
+      {% if speaker.presentation %}
+        <div class="speakers-item">
+          <span class="speaker-photo"><img class="photo" src="{{ speaker.photo }}" alt="{{ speaker.name }}" /></span>
+
+          <!--
+          <h3 class="speech-title">
+            {% if speaker.presentation.time %}
+              <span class="speech-time">{{ speaker.presentation.time }}</span>
+            {% endif %}
+          </h3>
+          -->
+
+          <h3 class="speakers-name">
+            <a href="http://www.cs.ubc.ca/~tmm/" target=_blank>{{ speaker.name }} </a>
+          </h3>
+          <p class="speakers-bio">{{ speaker.bio }}</p>
+          <p>
+          <a target=_blank href="http://www.twitter.com/{{ speaker.twitter }}" title="Twitter @{{ speaker.twitter }}">
+          @{{ speaker.twitter }}</a>
+          </p>
+        </div>
+      {% endif %}
+    {% endfor %}
+    </div>
+    
+
+  </section>
+  <!-- / SPEAKERS -->
+
+{% endif %}
