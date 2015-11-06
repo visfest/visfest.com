@@ -3,8 +3,8 @@
    ========================================================================== */
 .wrapper {
   margin: 0 auto;
-  min-width: 800px;
-  width: 800px;
+  min-width: 960px;
+  width: 960px;
   position:relative;
 }
 .content {padding: 20px 0;}
