@@ -1,0 +1,34 @@
+<section class="schedule" id="schedule">
+  <h2 class="section-title">Schedule</h2>
+  <div class="schedule-tbl">
+    <table>
+      <tbody>
+
+        {% for slot in site.schedule2015 %}
+          {% if slot.presentation %}
+            <tr>
+              <td class="schedule-time">{{ slot.presentation.time }}</td>
+              <td class="schedule-slot" colspan="5"><span class="speaker-photo"><img class="photo" src="{{ slot.photo }}" alt="{{ slot.name }}" /></span> {{ slot.presentation.title }} <span class="speakers-company">{{ slot.name }}</span></td>
+            </tr>
+          {% elsif slot.global %}
+            <tr>
+              <td class="schedule-time">{{ slot.time }}</td>
+              <td colspan="5">{{ slot.name }}</td>
+            </tr>
+          {% else %}
+            <tr class="schedule-other">
+              <td class="schedule-time" colspan="5"><b>{{ slot.time }}</b></td>
+            </tr>
+              {% for sesh in slot.sessions %}
+              <tr>
+              <td colspan="5" style="padding-top: 10px; padding-bottom: 10px">{{ sesh }}</td>
+              </tr>
+              {% endfor %}
+          {% endif %}
+        {% endfor %}
+
+      </tbody>
+    </table>
+  </div>
+</section>
+<!-- / SCHEDULE -->

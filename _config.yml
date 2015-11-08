@@ -89,7 +89,49 @@ schedule2015:
       title: "Opening Keynote"
       time: "10:00 AM"
     global: true
-
+  - 
+    time: "11:00 AM"
+    sessions:
+    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space 1"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space 2"
+    - "<img src='/img/green.png' style='margin-right:10px'></img>Space 3"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img>Space 4: Hacking & Chill"
+  - 
+    time: "11:45 AM"
+    sessions:
+    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space 1"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space 2"
+    - "<img src='/img/green.png' style='margin-right:10px'></img>Space 3"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img>Space 4: Hacking & Chill"
+  -
+    name: "Lunch"
+    time: "12:30 PM"
+    global: true
+  - 
+    time: "1:45 PM"
+    sessions:
+    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space 1"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space 2"
+    - "<img src='/img/green.png' style='margin-right:10px'></img>Space 3"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img>Space 4: Hacking & Chill"
+  - 
+    time: "2:45 PM"
+    sessions:
+    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space 1"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space 2"
+    - "<img src='/img/green.png' style='margin-right:10px'></img>Space 3"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img>Space 4: Hacking & Chill"
+  - 
+    time: "3:45 PM"
+    sessions:
+    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space 1"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space 2"
+    - "<img src='/img/green.png' style='margin-right:10px'></img>Space 3"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img>Space 4: Hacking & Chill"
+  - 
+    time: "4:30 PM"
+    name: "Closing"
+    global: true
 
 # The entire schedule
 schedule2014:
