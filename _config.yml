@@ -101,7 +101,7 @@ schedule2015:
     sessions:
     - "<img src='/img/pink.png' style='margin-right:10px'></img>Space A: Make it fast"
     - "<img src='/img/blue.png' style='margin-right:10px'></img>Space B: Data viz + games"
-    - "<img src='/img/green.png' style='margin-right:10px'></img>Space C"
+    - "<img src='/img/green.png' style='margin-right:10px'></img>Space C: The Chiasm project / What do I make with a CSV (tie)"
     - "<img src='/img/orange.png' style='margin-right:10px'></img>Space D: Hacking & Chill"
   -
     name: "Lunch"
