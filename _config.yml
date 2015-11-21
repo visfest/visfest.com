@@ -61,13 +61,13 @@ sections:
   sponsors: true
   partners: true
   contact: false
-  code_of_conduct: true 
+  code_of_conduct: true
   on_sale_now: true
 
 # orange: f98500
 # green: 00b43f
 # pink: ed007d
-# purple: 2a217d  
+# purple: 2a217d
 # blue: 00a6e1
 
 schedule2015:
@@ -89,46 +89,46 @@ schedule2015:
       title: "Opening Keynote"
       time: "10:00 AM"
     global: true
-  - 
-    time: "11:00 AM"
+  -
+    time: "11:00 AM - Session 1"
     sessions:
-    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space 1"
-    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space 2"
-    - "<img src='/img/green.png' style='margin-right:10px'></img>Space 3"
-    - "<img src='/img/orange.png' style='margin-right:10px'></img>Space 4: Hacking & Chill"
-  - 
-    time: "11:45 AM"
+    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space A"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space B"
+    - "<img src='/img/green.png' style='margin-right:10px'></img>Space C"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img>Space D: Hacking & Chill"
+  -
+    time: "11:45 AM - Session 2"
     sessions:
-    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space 1"
-    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space 2"
-    - "<img src='/img/green.png' style='margin-right:10px'></img>Space 3"
-    - "<img src='/img/orange.png' style='margin-right:10px'></img>Space 4: Hacking & Chill"
+    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space A"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space B"
+    - "<img src='/img/green.png' style='margin-right:10px'></img>Space C"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img>Space D: Hacking & Chill"
   -
     name: "Lunch"
     time: "12:30 PM"
     global: true
-  - 
-    time: "1:45 PM"
+  -
+    time: "1:45 PM - Session 3"
     sessions:
-    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space 1"
-    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space 2"
-    - "<img src='/img/green.png' style='margin-right:10px'></img>Space 3"
-    - "<img src='/img/orange.png' style='margin-right:10px'></img>Space 4: Hacking & Chill"
-  - 
-    time: "2:45 PM"
+    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space A"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space B"
+    - "<img src='/img/green.png' style='margin-right:10px'></img>Space C"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img>Space D: Hacking & Chill"
+  -
+    time: "2:45 PM - Session 4"
     sessions:
-    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space 1"
-    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space 2"
-    - "<img src='/img/green.png' style='margin-right:10px'></img>Space 3"
-    - "<img src='/img/orange.png' style='margin-right:10px'></img>Space 4: Hacking & Chill"
-  - 
-    time: "3:45 PM"
+    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space A"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space B"
+    - "<img src='/img/green.png' style='margin-right:10px'></img>Space C"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img>Space D: Hacking & Chill"
+  -
+    time: "3:45 PM - Session 5"
     sessions:
-    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space 1"
-    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space 2"
-    - "<img src='/img/green.png' style='margin-right:10px'></img>Space 3"
-    - "<img src='/img/orange.png' style='margin-right:10px'></img>Space 4: Hacking & Chill"
-  - 
+    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space A"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space B"
+    - "<img src='/img/green.png' style='margin-right:10px'></img>Space C"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img>Space D: Hacking & Chill"
+  -
     time: "4:30 PM"
     name: "Closing"
     global: true
@@ -153,7 +153,7 @@ schedule2014:
       title: "Opening Keynote"
       time: "10:00 AM"
     global: true
-  - 
+  -
     time: "10:30 AM"
     sessions:
     - "<img src='/img/pink.png' style='margin-right:10px'></img>Space 1: RCharts with Ramnath"
@@ -161,7 +161,7 @@ schedule2014:
     - "<img src='/img/green.png' style='margin-right:10px'></img>Space 3: d3 interop w/ Angular, etc"
     - "<img src='/img/orange.png' style='margin-right:10px'></img>Space 4: intentionally left blank "
     - "<img src='/img/purple.png' style='margin-right:10px'></img>Space 5: New to d3"
-  - 
+  -
     time: "11:45 AM"
     sessions:
     - "<img src='/img/pink.png' style='margin-right:10px'></img> Space 1: Performance d3+canvas"
@@ -173,7 +173,7 @@ schedule2014:
     name: "Lunch"
     time: "12:30 PM"
     global: true
-  - 
+  -
     time: "1:30 PM"
     sessions:
     - "<img src='/img/pink.png' style='margin-right:10px'></img> Space 1: d3+webGL"
@@ -181,7 +181,7 @@ schedule2014:
     - "<img src='/img/green.png' style='margin-right:10px'></img> Space 3: Mobile, by @shirleyxwu"
     - "<img src='/img/orange.png' style='margin-right:10px'></img> Space 4: Process: How to get from Data to Vis, by @alignedleft"
     - "<img src='/img/purple.png' style='margin-right:10px'></img> Space 5: Visual effects/SVG Filters"
-  - 
+  -
     time: "2:30 PM"
     sessions:
     - "<img src='/img/pink.png' style='margin-right:10px'></img> Space 1: Visualizing Outliers+Extremes"
@@ -193,7 +193,7 @@ schedule2014:
     name: "Beverage Break"
     time: "3:30 PM"
     global: true
-  - 
+  -
     time: "4:00 PM"
     sessions:
     - "<img src='/img/pink.png' style='margin-right:10px'></img> Space 1: Biology + d3, by @ariutta"
@@ -201,7 +201,7 @@ schedule2014:
     - "<img src='/img/green.png' style='margin-right:10px'></img> Space 3: Storytelling, Design and Good Taste, by @srhnhm and @nils"
     - "<img src='/img/orange.png' style='margin-right:10px'></img> Space 4: SVG Testing"
     - "<img src='/img/purple.png' style='margin-right:10px'></img> Space 5: Data vis for the Humanities: Words, Feelings, Art, Images, Narrative, Music"
-  - 
+  -
     time: "5:00 PM"
     sessions:
     - "<img src='/img/pink.png' style='margin-right:10px'></img> Space 1: d3 Hacks + Nuggets: Things I wish I knew earlier"
