@@ -110,24 +110,24 @@ schedule2015:
   -
     time: "1:45 PM - Session 3"
     sessions:
-    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space A"
-    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space B"
-    - "<img src='/img/green.png' style='margin-right:10px'></img>Space C"
+    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space A:d3-v4 (modular)"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space B:d3 + streaming data"
+    - "<img src='/img/green.png' style='margin-right:10px'></img>Space C: Annotation in vis and in d3"
     - "<img src='/img/orange.png' style='margin-right:10px'></img>Space D: Hacking & Chill"
   -
     time: "2:45 PM - Session 4"
     sessions:
-    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space A"
-    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space B"
-    - "<img src='/img/green.png' style='margin-right:10px'></img>Space C"
-    - "<img src='/img/orange.png' style='margin-right:10px'></img>Space D: Hacking & Chill"
+    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space A: So you want to do vis for a living?"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space B: Testing d3"
+    - "<img src='/img/green.png' style='margin-right:10px'></img>Space C: Network visualization of the d3 community"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img>Space D: Lignthing bl.ocks"
   -
     time: "3:45 PM - Session 5"
     sessions:
-    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space A"
-    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space B"
-    - "<img src='/img/green.png' style='margin-right:10px'></img>Space C"
-    - "<img src='/img/orange.png' style='margin-right:10px'></img>Space D: Hacking & Chill"
+    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space A: WebGL and vis"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space B: Storytelling with d3"
+    - "<img src='/img/green.png' style='margin-right:10px'></img>Space C: Making data vis products (vis beyond a single chart)"
+    - "<img src='/img/orange.png' style='margin-right:10px'></img>Space D: [nes vis]"
   -
     time: "4:30 PM"
     name: "Closing"
