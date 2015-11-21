@@ -92,15 +92,15 @@ schedule2015:
   -
     time: "11:00 AM - Session 1"
     sessions:
-    - "<img src='/img/pink.png' style='margin-right:10px'></img>D3 + React"
-    - "<img src='/img/blue.png' style='margin-right:10px'></img>Foundational vis for rapid development"
-    - "<img src='/img/green.png' style='margin-right:10px'></img>Create visualizations together"
+    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space A: D3 + React"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space B: Foundational vis for rapid development"
+    - "<img src='/img/green.png' style='margin-right:10px'></img>Space C: Create visualizations together"
     - "<img src='/img/orange.png' style='margin-right:10px'></img>Space D: Hacking & Chill"
   -
     time: "11:45 AM - Session 2"
     sessions:
-    - "<img src='/img/pink.png' style='margin-right:10px'></img>Make it fast"
-    - "<img src='/img/blue.png' style='margin-right:10px'></img>Data viz + games"
+    - "<img src='/img/pink.png' style='margin-right:10px'></img>Space A: Make it fast"
+    - "<img src='/img/blue.png' style='margin-right:10px'></img>Space B: Data viz + games"
     - "<img src='/img/green.png' style='margin-right:10px'></img>Space C"
     - "<img src='/img/orange.png' style='margin-right:10px'></img>Space D: Hacking & Chill"
   -
