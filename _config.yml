@@ -2,7 +2,7 @@
 server: true
 auto: true
 markdown: rdiscount
-pygments: true
+rouge: true
 permalink: /:title.html
 
 # Conference info
